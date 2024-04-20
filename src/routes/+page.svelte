@@ -12,7 +12,7 @@
 	<div class="bg-main-02 h-16 flex items-center text-lg px-6 md:px-24 lg:px-36">
 		<img src={logoNoText} class="h-full py-4" alt="logo" />
 		<span class="ml-md hidden sm:block md:hidden"> KN "Kraken" </span>
-		<span class="ml-md hidden md:block"> Koło myślenia projektowego "Kraken" </span>
+		<span class="ml-md hidden md:block"> Koło naukowe myślenia projektowego "Kraken" </span>
 		<div class="relative h-6 w-6 ml-auto">
 			<div class="newspaper bg-white h-full" />
 			<div
@@ -42,7 +42,7 @@
 			<div class="px-12 sm:px-20 2xl:px-16 pt-24 xl:pt-36 2xl:pt-56 max-w-3xl mb-6">
 				<div class="text-5xl md:text-7xl font-semibold mb-xs">Kraken</div>
 				<div class="text-xl md:text-3xl font-light text-gray-300 mb-md">
-					Koło myślenia projektowego
+					Koło naukowe myślenia projektowego
 				</div>
 				<div class="bg-gray-400 text-xl h-[1px] mb-lg" />
 				<div class="text-lg md:text-xl font-light text-gray-300 mb-10 flex flex-col gap-sm">
