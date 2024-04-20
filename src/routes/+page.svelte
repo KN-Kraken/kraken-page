@@ -90,16 +90,16 @@
 			<div class="mb-xs font-semibold">Skontaktuj się z nami</div>
 			<div class="ml-xs flex items-center">
 				<div class="facebook h-[1em] w-[1em] bg-gray-300 mr-xs" />
-				Facebook
+				<a href="https://www.facebook.com/profile.php?id=61558821743627&is_tour_dismissed"
+					>Facebook</a
+				>
 			</div>
 			<div class="ml-xs flex items-center">
 				<div class="email h-[1em] w-[1em] bg-gray-300 mr-xs" />
-				Email
+				kn.mp.kraken@gmail.com
 			</div>
 		</div>
-		<!-- <div class="h-full w-[1px] bg-gray-600" /> -->
 		<img src={logo} class="h-full opacity-20 hidden md:block" alt="logo" />
-		<!-- <div class="h-full w-[1px] bg-gray-600 hidden md:block" /> -->
 		<div class="md:border-l md:pl-lg border-gray-600">
 			<div class="mb-xs font-semibold">Nasze sukcesy</div>
 			<a
@@ -110,7 +110,7 @@
 			</a>
 			<a
 				class="block ml-xs"
-				href="https://www.facebook.com/BESTHACKINGLEAGUE/posts/pfbid02diwTAofwZSpR7z16UpbPAe8HBBN4VrkwBqQVAGUd5dKahfFja2J7e8ymVruBXLBhl?__cft__[0]=AZXLKVgDIbYWAMQMnDtGtkN8i6tKhDUZIbHk7UxzxfA2OaNi1UCwMxcFUQoEuoqco57YA59J4Wdgi9ssjPwUXTF42tJhFQmJwNXhj3ZnK-yn4AVk2DBdz9WYerIDR463M-ACVhaaYtUCLJhti1MYmF6hgrwrupZ7bG7h3m0al10MiWlgG_DQVqfQwaW-jeg9nqRvT4Dn4VdbOYAJEn_JvVXo&__tn__=%2CO%2CP-R"
+				href="https://www.facebook.com/BESTHACKINGLEAGUE/posts/pfbid0jJe3Gjc6gRReKGK8JVV4BgrS2n2f1JUPoNmZ74bCRQhiFZszXVMm9TAqMpAvJTfgl?__cft__[0]=AZWfHqRT06NqdPHS1_fbWdU-168V5JMP0ukVWQiMhpQlGikcLZvVuVucMm6NQ1IRTVnOH-1LrI9kX917r0XAb_NUpi8cF5tcQlp_BxMormtzoMlwAyDXgklSzVlGh6dfDA1PXkVmMLRtjFFDprmyBqzZ336gHNB2bpv7zMnm0WFM189vEmwAW8MNMjt4DNbUawXL_-TwalqyflmPj0ZZXHXv&__tn__=%2CO%2CP-R"
 			>
 				BHL 2022
 			</a>
