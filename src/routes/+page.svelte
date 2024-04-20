@@ -6,6 +6,7 @@
 	import plantsRightTop from '../assets/sea_plants_right_top.png';
 	import plantsRightBottom from '../assets/sea_plants_right_bottom.png';
 	import discord from '../assets/discord-mark-black.svg';
+	import NewsIcon from '$lib/NewsIcon.svelte';
 </script>
 
 <div class="bg-main-01 text-white flex flex-col">
@@ -13,14 +14,7 @@
 		<img src={logoNoText} class="h-full py-4" alt="logo" />
 		<span class="ml-md hidden sm:block md:hidden"> KN "Kraken" </span>
 		<span class="ml-md hidden md:block"> Koło Naukowe Myślenia Projektowego "Kraken" </span>
-		<div class="relative h-6 w-6 ml-auto">
-			<div class="newspaper bg-white h-full" />
-			<div
-				class="absolute top-0 right-0 w-3 h-3 rounded-full bg-highlight text-[0.6rem] flex items-center justify-center translate-x-1 -translate-y-0.5"
-			>
-				2
-			</div>
-		</div>
+		<NewsIcon count={0} />
 		<span class="ml-sm">Aktualności</span>
 	</div>
 	<div class="relative h-[1250px] sm:h-[1400px] xl:h-[1000px] flex">
@@ -133,10 +127,6 @@
 	}
 	.wrench {
 		mask: url(../assets/wrench.svg) center no-repeat;
-		mask-size: contain;
-	}
-	.newspaper {
-		mask: url(../assets/newspaper.svg) center no-repeat;
 		mask-size: contain;
 	}
 	.facebook {
