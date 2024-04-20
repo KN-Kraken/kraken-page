@@ -81,8 +81,12 @@
 			</div>
 		</div>
 	</div>
-	<div class="h-56 bg-main-03 flex justify-center p-10 gap-lg text-gray-300">
-		<div>
+	<div
+		class="min-h-56 bg-main-03 grid grid-rows-2 sm:grid-rows-1 grid-cols-1 sm:grid-cols-2 md:grid-cols-[1fr,196px,1fr] justify-center p-10 gap-lg text-gray-300"
+	>
+		<div
+			class="sm:justify-self-end sm:border-r sm:pr-lg border-gray-600 border-b sm:border-b-0 pb-lg sm:pb-0"
+		>
 			<div class="mb-xs font-semibold">Skontaktuj się z nami</div>
 			<div class="ml-xs flex items-center">
 				<div class="facebook h-[1em] w-[1em] bg-gray-300 mr-xs" />
@@ -93,10 +97,10 @@
 				Email
 			</div>
 		</div>
-		<div class="h-full w-[1px] bg-gray-600" />
-		<img src={logo} class="h-full opacity-20" alt="logo" />
-		<div class="h-full w-[1px] bg-gray-600" />
-		<div>
+		<!-- <div class="h-full w-[1px] bg-gray-600" /> -->
+		<img src={logo} class="h-full opacity-20 hidden md:block" alt="logo" />
+		<!-- <div class="h-full w-[1px] bg-gray-600 hidden md:block" /> -->
+		<div class="md:border-l md:pl-lg border-gray-600">
 			<div class="mb-xs font-semibold">Nasze sukcesy</div>
 			<a
 				class="block ml-xs"
