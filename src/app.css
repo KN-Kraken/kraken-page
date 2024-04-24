@@ -13,6 +13,10 @@ body {
 	font-variation-settings: 'wdth' 100;
 }
 
+img {
+	object-fit: contain;
+}
+
 a:hover {
 	text-decoration: underline;
 }

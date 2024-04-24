@@ -93,7 +93,7 @@
 				kn.mp.kraken@gmail.com
 			</div>
 		</div>
-		<img src={logo} class="h-full opacity-20 hidden md:block" alt="logo" />
+		<img src={logo} class="opacity-20 hidden md:block" alt="logo" />
 		<div class="md:border-l md:pl-lg border-gray-600">
 			<div class="mb-xs font-semibold">Nasze sukcesy</div>
 			<a
