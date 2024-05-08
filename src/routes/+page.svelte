@@ -47,10 +47,13 @@
 					</div>
 					<div class="font-normal">Koło myślenia projektowego pozwoli wam osiągnąć te cele.</div>
 				</div>
-				<button class="flex bg-white text-black rounded-full p-4 items-center">
+				<a
+					class="flex bg-white text-black rounded-full p-4 items-center w-max"
+					href="https://discord.gg/BPSWbzWqkp"
+				>
 					<img src={discord} alt="discord logo" class="h-6 mx-xs" />
 					<span class="mx-md font-semibold">Dołącz do nas</span>
-				</button>
+				</a>
 			</div>
 			<div class="flex flex-col items-center max-w-2xl">
 				<img src={logo} class="opacity-15 p-12" alt="logo" />
